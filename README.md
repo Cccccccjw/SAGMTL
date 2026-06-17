@@ -257,13 +257,6 @@ python train.py \
   --seed 42
 ```
 
-This is the configuration corresponding to:
-
-```text
-use_edge_history_in_decoder = 0
-static_branch_mode = co
-epochs = 80
-```
 
 This setting should be distinguished from another clean-main configuration using:
 

@@ -6,6 +6,7 @@ SAGMTL is designed to jointly model OD flow intensity and sparse structural stat
 
 ## 1. Framework Overview
 
+![Overall architecture of SAGMTL](Architecture.png)
 SAGMTL consists of three main components.
 
 ### 1.1 Node-edge coupled spatiotemporal encoder

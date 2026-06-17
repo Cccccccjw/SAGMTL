@@ -258,16 +258,6 @@ python train.py \
 ```
 
 
-This setting should be distinguished from another clean-main configuration using:
-
-```text
-use_edge_history_in_decoder = 1
-static_branch_mode = static_roles
-epochs = 100
-```
-
-The latter is not the configuration used for reproducing the reported Beijing MAE of 0.8692.
-
 ### 6.2 Training on Chengdu or Nanjing
 
 For Chengdu or Nanjing, replace `--od_root` and `--exp_name` in the above command. For example:
